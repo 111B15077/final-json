@@ -4,7 +4,7 @@
 
 整理需要的資料後使用 https://jsonserve.com/ 產生新的json網址  https://api.jsonserve.com/y-kTWs
 
-測試影片 https://www.youtube.com/watch?v=_Eu0EeKnX5Q
+測試影片 [https://www.youtube.com/watch?v=_Eu0EeKnX5Q](https://youtu.be/XwmX9oNrRAs)
 
 ![image](https://github.com/111B15077/final-json/blob/main/%E9%A1%AF%E7%A4%BA%E5%9C%96%E7%89%871.png)
 ![image](https://github.com/111B15077/final-json/blob/main/%E9%A1%AF%E7%A4%BA%E5%9C%96%E7%89%872.png)
