@@ -1,6 +1,6 @@
 功能:從網路抓取json檔並顯示在RecycleView上，點擊能進去更多資訊頁面
 
-資料來源:氣象局 https://opendata.cwa.gov.tw/dist/opendata-swagger.html?urls.primaryName=openAPI#/%E8%A7%80%E6%B8%AC/get_v1_rest_datastore_O_A0002_001
+資料來源:中央氣象署開放資料平臺之資料擷取API https://opendata.cwa.gov.tw/dist/opendata-swagger.html?urls.primaryName=openAPI#/%E8%A7%80%E6%B8%AC/get_v1_rest_datastore_O_A0002_001
 
 整理需要的資料後使用 https://jsonserve.com/ 產生新的json網址  https://api.jsonserve.com/y-kTWs
 
