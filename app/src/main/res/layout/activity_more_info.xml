@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.855" />
 
     <TextView
-        android:id="@+id/tvMoreLoca"
+        android:id="@+id/tvCountyName"
         android:layout_width="174dp"
         android:layout_height="36dp"
         android:layout_marginStart="16dp"
@@ -34,42 +34,42 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tvMoreArea"
+        android:id="@+id/tvTownName"
         android:layout_width="174dp"
         android:layout_height="33dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="區域"
+        android:text="鄉鎮"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvMoreLoca" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCountyName" />
 
     <TextView
-        android:id="@+id/tvMoreTime"
+        android:id="@+id/tvDateTime"
         android:layout_width="386dp"
         android:layout_height="36dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="時間"
+        android:text="觀測時間"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvMoreArea" />
+        app:layout_constraintTop_toBottomOf="@+id/tvTownName" />
 
     <TextView
-        android:id="@+id/tvMoreTempature"
+        android:id="@+id/tvPrecipitation"
         android:layout_width="172dp"
         android:layout_height="35dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:text="溫度"
+        android:text="降水量"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvMoreTime"
+        app:layout_constraintTop_toBottomOf="@+id/tvDateTime"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView

@@ -1,10 +1,6 @@
 package com.example.finalproject;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -18,23 +14,20 @@ public class more_info extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            String sitename = extras.getString("sitename");
-            String county = extras.getString("county");
-            String aqi = extras.getString("aqi");
-            String status = extras.getString("status");
-            String publishtime = extras.getString("publishtime");
+            String countyName = extras.getString("CountyName");
+            String townName = extras.getString("TownName");
+            String dateTime = extras.getString("DateTime");
+            String precipitation = extras.getString("Precipitation");
 
-            TextView tvSitename = findViewById(R.id.tvMoreLoca);
-            TextView tvCounty = findViewById(R.id.tvMoreArea);
-            TextView tvAqi = findViewById(R.id.tvMoreTime);
-            TextView tvStatus = findViewById(R.id.tvMoreTempature);
-            TextView tvPublishtime = findViewById(R.id.textView2);
+            TextView tvCountyName = findViewById(R.id.tvCountyName);
+            TextView tvTownName = findViewById(R.id.tvTownName);
+            TextView tvDateTime = findViewById(R.id.tvDateTime);
+            TextView tvPrecipitation = findViewById(R.id.tvPrecipitation);
 
-            tvSitename.setText("測站名稱: " + sitename);
-            tvCounty.setText("縣市: " + county);
-            tvAqi.setText("空氣品質指標: " + aqi);
-            tvStatus.setText("狀態: " + status);
-            tvPublishtime.setText("時間: " + publishtime);
+            tvCountyName.setText("縣市: " + countyName);
+            tvTownName.setText("鄉鎮: " + townName);
+            tvDateTime.setText("觀測時間: " + dateTime);
+            tvPrecipitation.setText("降水量: " + precipitation);
         }
     }
 
